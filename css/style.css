@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+body{
+    background: rgb(52,34,64);
+background: linear-gradient(90deg, rgba(52,34,64,1) 19%, rgba(130,69,255,1) 50%, rgba(46,35,37,1) 87%, rgba(0,0,0,1) 100%);
+color: white;
+}
+.registro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#avatarUser{
+    display: flex;
+    flex-direction: row;
+}
+img{
+    margin: 80px 7px 7px 7px;
+    border: #cda5ae solid 3px;
+    border-radius: 12px;
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+}
+img:hover{
+    transform: scale(1.05);
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+#userNickname{
+    margin-top: 60px;
+    width: 400px;
+    height: 70px;
+    background-color: #f7c7d1;
+    border: #bb3864 solid 3px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 30px;
+}
+.botonAceptar{
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+    background-color: #fff2f5;
+    border: #cda5ae solid 3px;
+    color: #94767c;
+}
+.botonAceptar:hover{
+    cursor: pointer;
+}
+.containerBtnJugar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.botonJugar{
+    background-color: #68ad00;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    margin: 10px;
+    border: green solid 3px;
+    border-radius: 50px;
+}
+
+main{
+width: 730px;
+margin: 100px auto 50px;
+display: flex;
+align-items: center;
+font-family: 'Orbitron', sans-serif;
+color: black;
+}
+.playGames{
+    background-color: rgba(255,255,255, 0.2);
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif
+}
+button{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.recordedTime{
+    background-color: rgba(255,255,255, 0.2);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 250px;
+    height: 400px;
+}
+h2{
+    
+    border: 3px solid white;
+    height: 105px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
